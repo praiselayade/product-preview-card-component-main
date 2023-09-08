@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: hsl(32, 37%, 92%);
+}
+.container {
+  color: hsl(158, 36%, 37%);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+  @media only screen and (max-width: 910px){
+    .container {
+      padding-top: 20px;
+      padding-bottom: 40px;
+    }
+  }
+.box {
+  width: 250px;
+  height: 375px;
+  
+  border: none;
+}
+  @media only screen and (max-width: 450px){
+    .box-1 {
+      height: 200px;
+      background-color: none;
+    }
+  }
+.image-product-desktop {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px 0px 0px 10px;
+}
+  @media only screen and (max-width: 450px){
+    .image-product-desktop {
+      border-radius: 10px 10px 0px 0px;
+      height: 200px;
+      background-image: url(/images/image-product-mobile.jpg);
+      background-color: none;
+    }
+  }
+.box-2 {
+  border-radius: 0px 10px 10px 0px;
+  padding: 20px;
+  background-color: hsl(0, 0%, 100%);
+}
+  @media only screen and (max-width: 450px){
+    .box-2 {
+      border-radius: 0px 0px 0px 0px;
+    }
+  }
+.product-heading {
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+.product-sub-heading {
+  padding-top: 15px;
+  padding-right: 30px;
+  font-size: 25px;
+  font-family: 'Fraunces', sans-serif;
+  line-height: .9;
+  color: hsl(212, 21%, 14%);
+}
+.product-description {
+  padding-top: 25px;
+  font-size: 12px;
+  line-height: 2;
+  font-weight: 700px;
+  font-family: 'Montserrat', sans-serif;
+}
+.product-prices {
+  padding-top: 15px;
+  font-family: 'Fraunces', sans-serif;
+}
+.product-prices-1 {
+  font-size: 30px;
+}
+.product-prices-2 {
+  text-decoration: line-through;
+  font-size: 12px;
+  text-align: center;
+}
+.product-cta {
+  padding-top: 20px;
+}
+button {
+  background-color: hsl(158, 36%, 37%);
+  padding: 10px 50px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-family: 'Montserrat';
+}
+button:hover {
+  background-color: hsl(157, 32%, 25%);
+}
+.icon-cart {
+  width: 12%;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
