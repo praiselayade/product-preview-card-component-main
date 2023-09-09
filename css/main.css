@@ -17,20 +17,18 @@ body{
 }
   @media only screen and (max-width: 910px){
     .container {
-      padding-top: 20px;
-      padding-bottom: 40px;
+      height: fit-content;
+      padding-top: 50px;
     }
   }
-.box {
+.box-1 {
   width: 250px;
   height: 375px;
-  
   border: none;
 }
   @media only screen and (max-width: 450px){
     .box-1 {
       height: 200px;
-      background-color: none;
     }
   }
 .image-product-desktop {
@@ -42,11 +40,12 @@ body{
     .image-product-desktop {
       border-radius: 10px 10px 0px 0px;
       height: 200px;
-      background-image: url(/images/image-product-mobile.jpg);
-      background-color: none;
     }
   }
 .box-2 {
+  width: 250px;
+  height: 375px;
+  border: none;
   border-radius: 0px 10px 10px 0px;
   padding: 20px;
   background-color: hsl(0, 0%, 100%);
@@ -87,7 +86,7 @@ body{
 .product-prices-2 {
   text-decoration: line-through;
   font-size: 12px;
-  text-align: center;
+  align-items: center;
 }
 .product-cta {
   padding-top: 20px;
